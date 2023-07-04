@@ -71,9 +71,9 @@ Then you can estimate the sample size:
 You will find all your plots from this code as a json file in the output directory. You can modify the output directory to whatever it must be  
 
 To get your plots as a png file you must take the one you want to convert
-Here is how to plot the final model into a graph as a png 
+Here is how to plot the final model into a graph as a png while also getting the points in a CSV file
 
-./smc++ plot model.final.png model.final.json
+./smc++ plot model.final.png model.final.json -c model.final.csv
 
 If you want all the output models graph into one here is the code for it: 
 
